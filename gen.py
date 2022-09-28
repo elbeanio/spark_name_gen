@@ -21,6 +21,7 @@ def words_from_file(fn: str) -> list[str]:
     return words
 
 
+# "borrowed from quinn lib"
 def array_choice(col: PS.Column):
     index = (F.rand()*F.size(col)).cast("int")
     return col[index]
