@@ -1,0 +1,7 @@
+quinn/
+udf/
+.venv/
+.vscode/
+.venv/
+.vscode/
+*.parquet
